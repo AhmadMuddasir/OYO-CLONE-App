@@ -14,14 +14,14 @@ const Payment = () => {
 
     const options = {
       key: process.env.RAZORPAY_KEY,
-      name: "Aditya",
+      name: "Ahmad",
       currency: data.currency,
       amount: data.amount,
       order_id: data.id,
       description: "Thank You !",
       handler: function (response) {},
       prefill: {
-        name: "Aditya",
+        name: "Ahmad",
         email: "adi@gmail.com",
         contact: 987654321,
       },
