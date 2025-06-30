@@ -1,4 +1,4 @@
-
+//simple footer 
 
 const Footer = () => {
   return (
