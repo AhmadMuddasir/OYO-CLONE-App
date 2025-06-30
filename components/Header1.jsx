@@ -11,8 +11,8 @@ const Header1 = () => {
 
   useEffect(() => {
     const key = Cookies.get("user");
-    if(key){
-      setAuth(true);
+    if(key){//if key exist then 
+      setAuth(true);//set authorisation true
       return;
     }
     setAuth(false);
