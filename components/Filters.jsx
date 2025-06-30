@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
-
+//filtering the hotels 
 const Filters = ({
   price,
   setPrice,
